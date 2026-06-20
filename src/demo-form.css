@@ -4,7 +4,7 @@
   padding:clamp(1.15rem,2.2vw,2rem) 0 clamp(8rem,14vh,11rem);
   overflow:hidden;
   border-top:1px solid rgba(255,176,0,.18);
-  scroll-margin-top:5.15rem;
+  scroll-margin-top:1rem;
 }
 
 .cta .section-art{
@@ -54,6 +54,7 @@
   background:rgba(5,6,7,.46);
   box-shadow:0 14px 42px rgba(0,0,0,.28),inset 0 1px 0 rgba(255,255,255,.045);
   backdrop-filter:blur(7px);
+  scroll-margin-top:6.15rem;
 }
 
 .demo-grid{
@@ -141,19 +142,20 @@
 
 @media(max-width:900px){
   .cta{
-    padding:1.35rem 0 6.5rem;
-    scroll-margin-top:8.6rem;
+    padding:.9rem 0 5.5rem;
+    scroll-margin-top:0;
   }
 
   .cta-overlay{
     width:min(680px,calc(100% - 1rem));
-    padding:1rem;
+    padding:.85rem;
     border-radius:1rem;
   }
 
   .demo-form{
-    padding:.85rem;
+    padding:.78rem;
     border-radius:.85rem;
+    scroll-margin-top:6.9rem;
   }
 }
 
