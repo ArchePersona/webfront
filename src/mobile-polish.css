@@ -125,58 +125,59 @@
 
   .cta{
     display:block;
-    padding:3.35rem 0 3.75rem;
+    padding:1.5rem 0 6.5rem;
   }
 
   .cta .section-art{
-    opacity:.86;
+    opacity:.88;
     object-position:center center;
   }
 
   .cta:after{
-    background:linear-gradient(180deg,rgba(7,8,8,.38),rgba(7,8,8,.58) 44%,rgba(7,8,8,.72));
+    background:linear-gradient(180deg,rgba(7,8,8,.24),rgba(7,8,8,.46) 44%,rgba(7,8,8,.64));
   }
 
   .cta-overlay{
     width:min(100% - 1.5rem,640px);
-    padding:1.45rem;
+    padding:1rem;
     border-radius:1rem;
-    background:linear-gradient(180deg,rgba(8,9,9,.66),rgba(5,6,6,.78));
-    backdrop-filter:blur(7px);
+    background:linear-gradient(180deg,rgba(8,9,9,.54),rgba(5,6,6,.68));
+    backdrop-filter:blur(6px);
   }
 
   .cta h2{
-    font-size:clamp(2.25rem,10.8vw,3.55rem);
+    margin-bottom:.55rem;
+    font-size:clamp(1.9rem,8.6vw,2.85rem);
     line-height:1.02;
   }
 
   .cta p{
-    margin-bottom:1.35rem;
-    font-size:1.04rem;
-    line-height:1.42;
+    margin-bottom:1rem;
+    font-size:1rem;
+    line-height:1.35;
   }
 
   .demo-form{
     width:100%;
-    padding:1.05rem;
-    gap:.95rem;
-    background:rgba(4,5,5,.72);
+    padding:.9rem;
+    gap:.7rem;
+    background:rgba(4,5,5,.66);
   }
 
   .demo-grid{
     grid-template-columns:1fr;
-    gap:.95rem;
+    gap:.7rem;
   }
 
   .demo-form input,
   .demo-form select,
   .demo-form textarea{
-    min-height:3.25rem;
-    font-size:1rem;
+    min-height:2.75rem;
+    font-size:.96rem;
   }
 
   .demo-form textarea{
-    min-height:8rem;
+    min-height:5.4rem;
   }
 
   .demo-note{
@@ -195,8 +196,8 @@
   .nav-shell{gap:1.05rem;font-size:.78rem}
   .hero-logo{font-size:clamp(2.05rem,11.8vw,3.25rem)}
   h1{font-size:clamp(2.2rem,11.6vw,3.4rem)}
-  .cta-overlay{width:min(100% - 1rem,620px);padding:1.15rem}
-  .demo-form{padding:.9rem}
+  .cta-overlay{width:min(100% - 1rem,620px);padding:.9rem}
+  .demo-form{padding:.8rem}
 }
 
 @media(max-width:900px){
