@@ -1,0 +1,219 @@
+.trusda-page{
+  background:#070808;
+}
+
+.trusda-hero{
+  min-height:calc(100vh - 5.5rem);
+  display:flex;
+  align-items:center;
+  padding:clamp(4rem,7vw,7rem) 0;
+}
+
+.trusda-hero .section-art{
+  opacity:.44;
+  filter:saturate(.86) contrast(1.04);
+}
+
+.trusda-hero:after{
+  background:radial-gradient(circle at 50% 40%,rgba(7,8,8,.18),rgba(7,8,8,.56) 58%,rgba(7,8,8,.88));
+}
+
+.trusda-overlay{
+  text-align:center;
+}
+
+.mini-brand{
+  margin-bottom:.9rem;
+  color:var(--amber-soft);
+  font-size:clamp(.95rem,1.1vw,1.1rem);
+}
+
+.trusda-overlay h1{
+  margin-bottom:.5rem;
+  color:#ffe0a1;
+  font-size:clamp(3rem,7vw,7.5rem);
+  line-height:.95;
+  text-shadow:0 0 34px rgba(255,176,0,.32),0 5px 28px rgba(0,0,0,.86);
+}
+
+.trusda-tagline{
+  margin-bottom:1.35rem;
+  color:var(--amber);
+  font-size:clamp(1.35rem,2.3vw,2.55rem);
+  font-weight:800;
+  letter-spacing:-.035em;
+  text-shadow:0 2px 18px rgba(0,0,0,.82);
+}
+
+.trusda-copy{
+  max-width:860px;
+  margin:0 auto 2rem;
+  color:rgba(244,241,232,.86);
+  font-size:clamp(1.05rem,1.55vw,1.55rem);
+  line-height:1.45;
+  text-shadow:0 3px 18px rgba(0,0,0,.86);
+}
+
+.trusda-formula{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:.8rem;
+  margin:0 auto;
+  padding:1rem 1.25rem;
+  width:min(980px,100%);
+  border:1px solid rgba(255,176,0,.22);
+  border-radius:.7rem;
+  background:rgba(8,9,9,.42);
+  box-shadow:0 20px 70px rgba(0,0,0,.36),inset 0 1px 0 rgba(255,255,255,.05);
+  color:#f4c180;
+  font-size:clamp(.95rem,1.25vw,1.25rem);
+  font-weight:800;
+}
+
+.trusda-formula b{
+  color:var(--amber);
+}
+
+.trusda-explain{
+  padding:clamp(4rem,7vw,7rem) clamp(1rem,5vw,5.5rem);
+  border-bottom:1px solid rgba(255,255,255,.07);
+  background:linear-gradient(180deg,#080909,#0b0c0c);
+}
+
+.trusda-inner{
+  width:min(1280px,100%);
+  margin:0 auto;
+}
+
+.trusda-heading{
+  max-width:980px;
+}
+
+.integration-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:clamp(1rem,2vw,1.5rem);
+}
+
+.integration-card,
+.funnel-path{
+  border:1px solid rgba(255,255,255,.16);
+  border-radius:.75rem;
+  background:linear-gradient(180deg,rgba(18,20,20,.74),rgba(8,9,9,.9));
+  box-shadow:0 22px 60px rgba(0,0,0,.42),inset 0 1px 0 rgba(255,255,255,.05);
+}
+
+.integration-card{
+  min-height:340px;
+  display:flex;
+  flex-direction:column;
+  padding:clamp(1.5rem,2.4vw,2.5rem);
+}
+
+.integration-card-wide{
+  grid-column:1/-1;
+  min-height:260px;
+  text-align:center;
+  align-items:center;
+}
+
+.integration-label{
+  margin-bottom:.9rem;
+  color:var(--amber);
+  font-size:.82rem;
+  font-weight:800;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+}
+
+.integration-card h3{
+  margin-bottom:1rem;
+  color:#ffe0a1;
+  font-size:clamp(2rem,3vw,3.35rem);
+  line-height:1;
+  letter-spacing:-.045em;
+}
+
+.integration-card p{
+  max-width:760px;
+  margin-bottom:1.5rem;
+  color:rgba(244,241,232,.86);
+  font-size:clamp(1rem,1.2vw,1.2rem);
+  line-height:1.48;
+}
+
+.integration-card .ghost-button,
+.integration-card .solid-button{
+  margin-top:auto;
+  align-self:flex-start;
+}
+
+.integration-card-wide .solid-button{
+  align-self:center;
+}
+
+.trusda-funnel{
+  padding:clamp(4rem,7vw,6rem) 0;
+  background:#070808;
+}
+
+.trusda-funnel:after{
+  background:radial-gradient(circle at 50% 30%,rgba(255,176,0,.07),rgba(7,8,8,.44) 48%,rgba(7,8,8,.88));
+}
+
+.trusda-funnel-inner{
+  text-align:center;
+}
+
+.trusda-funnel h2{
+  margin-bottom:clamp(2rem,4vw,3rem);
+  color:#ffe0a1;
+  font-size:clamp(2rem,4vw,4.5rem);
+  line-height:1.05;
+  letter-spacing:-.05em;
+}
+
+.funnel-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:clamp(1rem,2vw,1.5rem);
+}
+
+.funnel-path{
+  display:block;
+  min-height:220px;
+  padding:clamp(1.25rem,2vw,2rem);
+  text-align:left;
+  transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease;
+}
+
+.funnel-path:hover,
+.funnel-path:focus-visible{
+  transform:translateY(-2px);
+  border-color:rgba(255,176,0,.46);
+  box-shadow:0 26px 72px rgba(0,0,0,.58),0 0 28px rgba(255,176,0,.10),inset 0 1px 0 rgba(255,255,255,.07);
+}
+
+.funnel-path span{
+  display:block;
+  margin-bottom:.9rem;
+  color:var(--amber);
+  font-weight:800;
+}
+
+.funnel-path p{
+  margin:0;
+  color:rgba(244,241,232,.88);
+  font-size:clamp(1rem,1.15vw,1.2rem);
+  line-height:1.42;
+}
+
+@media(max-width:900px){
+  .trusda-hero{min-height:auto;padding:4.5rem 0}
+  .trusda-formula{align-items:stretch;flex-direction:column;gap:.45rem;width:min(420px,100%)}
+  .integration-grid,.funnel-grid{grid-template-columns:1fr}
+  .integration-card,.integration-card-wide,.funnel-path{min-height:auto}
+  .integration-card .ghost-button,.integration-card .solid-button,.integration-card-wide .solid-button{align-self:stretch}
+}
