@@ -277,31 +277,31 @@ h1{
 }
 
 .engine-strip{
-  padding:clamp(4rem,8vw,7.25rem) clamp(1rem,5vw,5.5rem);
-  background:linear-gradient(rgba(9,10,10,.88),rgba(9,10,10,.94));
+  padding:clamp(2.35rem,4.2vw,3.75rem) clamp(1rem,5vw,5.5rem);
+  background:linear-gradient(rgba(9,10,10,.90),rgba(9,10,10,.95));
   border-block:1px solid rgba(255,176,0,.18);
 }
 .strip-inner{
-  width:min(1040px,100%);
+  width:min(920px,100%);
   margin:0 auto;
   text-align:center;
 }
 .strip-brand{
-  margin-bottom:.9rem;
+  margin-bottom:.55rem;
   color:var(--amber-soft);
-  font-size:1rem;
+  font-size:.92rem;
 }
 .engine-strip h2{
-  margin-bottom:2rem;
-  font-size:clamp(2rem,4.15vw,4.75rem);
-  line-height:1.1;
+  margin-bottom:1.35rem;
+  font-size:clamp(1.65rem,3.15vw,3.35rem);
+  line-height:1.12;
   letter-spacing:-.045em;
 }
 .engine-strip h2 span{
   color:var(--amber);
-  text-shadow:0 0 24px rgba(255,176,0,.38);
+  text-shadow:0 0 20px rgba(255,176,0,.32);
 }
-.compact{min-height:2.75rem;padding-inline:1.5rem;text-transform:none}
+.compact{min-height:2.55rem;padding-inline:1.35rem;text-transform:none}
 
 .cta{
   min-height:clamp(620px,52vw,860px);
@@ -375,6 +375,8 @@ h1{
   .ghost-button,.solid-button{width:100%}
   .section-art{opacity:.5}
   .cards .section-art{opacity:.08}
+  .engine-strip{padding:2.5rem 1rem}
+  .engine-strip h2{font-size:clamp(1.75rem,8.5vw,2.7rem)}
   .cta .section-art{opacity:.4}
   .section-footer-cue{position:relative;inset:auto;width:min(1020px,calc(100% - 2rem));margin:1.5rem auto 0}
 }
