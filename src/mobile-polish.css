@@ -9,6 +9,9 @@
     padding:1rem 1.25rem .85rem;
   }
 
+  .desktop-title,.desktop-copy{display:none}
+  .mobile-title,.mobile-copy{display:inline}
+
   .brand-mark{
     font-size:clamp(1.35rem,7vw,1.75rem);
     max-width:58vw;
@@ -34,7 +37,7 @@
 
   .hero{
     min-height:auto;
-    padding:3.2rem 0 3.55rem;
+    padding:2.4rem 0 2.75rem;
   }
 
   .hero-overlay{
@@ -42,24 +45,30 @@
   }
 
   .hero-logo{
-    margin-bottom:1.05rem;
+    margin-bottom:.85rem;
     font-size:clamp(2.35rem,12vw,4.1rem);
   }
 
   h1{
-    margin-bottom:1.05rem;
-    font-size:clamp(2.55rem,12.2vw,4.05rem);
-    line-height:1.04;
+    margin-bottom:.9rem;
+    font-size:clamp(2.45rem,11.6vw,3.7rem);
+    line-height:1.02;
   }
 
   .hero-copy{
-    max-width:34rem;
-    font-size:clamp(1.02rem,4.3vw,1.2rem);
-    line-height:1.42;
+    max-width:30rem;
+    font-size:clamp(1rem,4.1vw,1.15rem);
+    line-height:1.35;
+  }
+
+  .engine-line{
+    margin-top:.85rem;
   }
 
   .button-row{
     width:min(100%,22rem);
+    margin-top:1.15rem;
+    gap:.85rem;
   }
 
   .cards{
@@ -223,13 +232,18 @@
   }
 }
 
+@media(min-width:901px){
+  .mobile-title,.mobile-copy{display:none}
+  .desktop-title,.desktop-copy{display:inline}
+}
+
 @media(max-width:430px){
   .site-header{padding-inline:1rem}
   .brand-mark{font-size:1.28rem;max-width:52vw}
   .nav-demo{font-size:.84rem;padding-inline:.85rem}
   .nav-shell{gap:1.05rem;font-size:.78rem}
   .hero-logo{font-size:clamp(2.05rem,11.8vw,3.25rem)}
-  h1{font-size:clamp(2.2rem,11.6vw,3.4rem)}
+  h1{font-size:clamp(2rem,10.7vw,3rem)}
   .cta-overlay{width:min(100% - .7rem,620px);padding:.34rem .58rem .58rem}
   .cta h2{font-size:clamp(1.36rem,6.7vw,1.95rem)}
   .cta p{font-size:.72rem;line-height:1.12;margin-bottom:1.3rem}
