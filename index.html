@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="src/styles.css" />
     <link rel="stylesheet" href="src/card-clicks.css" />
+    <link rel="stylesheet" href="src/demo-form.css" />
   </head>
   <body>
     <header class="site-header" aria-label="Primary navigation">
@@ -52,10 +53,28 @@
         <div class="section-overlay cta-overlay">
           <h2 id="cta-title">Build AI agents people can trust.</h2>
           <p>ArchePersona gives AI systems the character to stay coherent, the consequence layer to act responsibly, and <strong>TRUSDA System</strong> to earn autonomy <strong>safely</strong> over time.</p>
-          <div class="button-row cta-buttons"><a class="solid-button" href="#demo">Request Demo</a><a id="docs" class="ghost-button" href="trusda.html">Explore TRUSDA</a></div>
+          <form class="demo-form" action="/api/request-demo" method="post" data-demo-form>
+            <input type="hidden" name="source" value="homepage-demo-cta" />
+            <input type="hidden" name="reference" value="AP-WEB-DEMO-CTA" />
+            <input type="hidden" name="product" value="TRUSDA System" />
+            <label class="form-hidden">Leave this field empty<input name="website" tabindex="-1" autocomplete="off" /></label>
+            <div class="demo-grid">
+              <label>Name<input name="name" type="text" autocomplete="name" placeholder="Darren Hall" required /></label>
+              <label>Email<input name="email" type="email" autocomplete="email" placeholder="you@example.com" required /></label>
+            </div>
+            <div class="demo-grid">
+              <label>Company<input name="company" type="text" autocomplete="organization" placeholder="Company or project" /></label>
+              <label>Trust need<select name="trust_path"><option value="Full TRUSDA System">Full TRUSDA System</option><option value="Stable identity / CHIMERA">Stable identity / CHIMERA</option><option value="Tower control / CONTROL TOWER">Tower control / CONTROL TOWER</option><option value="Not sure yet">Not sure yet</option></select></label>
+            </div>
+            <label>Message<textarea name="message" placeholder="Tell me what kind of agent, workflow, or trust problem you want to demo." required></textarea></label>
+            <button class="solid-button" type="submit">Send Demo Request</button>
+            <p class="demo-status" data-demo-status aria-live="polite"></p>
+            <p class="demo-note">Your message is routed through the site backend. The inbox address is not displayed in the page source.</p>
+          </form>
         </div>
         <div class="section-footer-cue" aria-hidden="true"><span class="footer-brand text-logo"><span class="logo-a">A</span><span>rchePersona</span></span><span>Powered by ARCHEngine</span></div>
       </section>
     </main>
+    <script src="src/demo-form.js" defer></script>
   </body>
 </html>
