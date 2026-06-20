@@ -23,11 +23,11 @@
 .cta-overlay{
   width:min(1020px,calc(100% - 2rem));
   padding:clamp(1.05rem,1.85vw,1.65rem) clamp(1.15rem,2.2vw,1.9rem);
-  border:1px solid rgba(255,176,0,.20);
-  border-radius:1.1rem;
-  background:linear-gradient(180deg,rgba(8,9,9,.30),rgba(6,7,7,.50));
-  box-shadow:0 18px 66px rgba(0,0,0,.36),inset 0 1px 0 rgba(255,255,255,.05);
-  backdrop-filter:blur(4px);
+  border:0;
+  border-radius:0;
+  background:transparent;
+  box-shadow:none;
+  backdrop-filter:none;
 }
 
 .cta h2{
@@ -49,11 +49,11 @@
   display:grid;
   gap:.64rem;
   padding:clamp(.75rem,1.2vw,1rem);
-  border:1px solid rgba(255,255,255,.12);
-  border-radius:.82rem;
-  background:rgba(5,6,7,.46);
-  box-shadow:0 14px 42px rgba(0,0,0,.28),inset 0 1px 0 rgba(255,255,255,.045);
-  backdrop-filter:blur(7px);
+  border:0;
+  border-radius:0;
+  background:rgba(5,6,7,.34);
+  box-shadow:0 14px 42px rgba(0,0,0,.20);
+  backdrop-filter:blur(5px);
   scroll-margin-top:6.15rem;
 }
 
@@ -149,12 +149,12 @@
   .cta-overlay{
     width:min(680px,calc(100% - 1rem));
     padding:.85rem;
-    border-radius:1rem;
+    border-radius:0;
   }
 
   .demo-form{
     padding:.78rem;
-    border-radius:.85rem;
+    border-radius:0;
     scroll-margin-top:6.9rem;
   }
 }
