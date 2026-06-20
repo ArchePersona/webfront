@@ -1,0 +1,233 @@
+@media(max-width:900px){
+  html{scroll-padding-top:9.75rem}
+  #top,.cards,.info-card,.engine-strip,.cta,.trusda-hero,.trusda-explain,.trusda-funnel{scroll-margin-top:9.75rem}
+
+  .site-header{
+    position:sticky;
+    grid-template-columns:1fr auto;
+    gap:.8rem 1rem;
+    padding:1rem 1.25rem .85rem;
+  }
+
+  .brand-mark{
+    font-size:clamp(1.35rem,7vw,1.75rem);
+    max-width:58vw;
+  }
+
+  .nav-demo{
+    min-height:2.55rem;
+    padding:.58rem 1rem;
+    font-size:.9rem;
+    white-space:nowrap;
+  }
+
+  .nav-shell{
+    justify-content:flex-start;
+    gap:1.25rem;
+    padding:.65rem 0 .15rem;
+    overflow-x:auto;
+    scrollbar-width:none;
+    -webkit-overflow-scrolling:touch;
+  }
+
+  .nav-shell::-webkit-scrollbar{display:none}
+
+  .hero{
+    min-height:auto;
+    padding:3.2rem 0 3.55rem;
+  }
+
+  .hero-overlay{
+    width:min(100% - 2rem,620px);
+  }
+
+  .hero-logo{
+    margin-bottom:1.05rem;
+    font-size:clamp(2.35rem,12vw,4.1rem);
+  }
+
+  h1{
+    margin-bottom:1.05rem;
+    font-size:clamp(2.55rem,12.2vw,4.05rem);
+    line-height:1.04;
+  }
+
+  .hero-copy{
+    max-width:34rem;
+    font-size:clamp(1.02rem,4.3vw,1.2rem);
+    line-height:1.42;
+  }
+
+  .button-row{
+    width:min(100%,22rem);
+  }
+
+  .cards{
+    padding:3.1rem 0 3.4rem;
+  }
+
+  .cards-overlay{
+    width:min(100% - 1.5rem,680px);
+  }
+
+  .section-heading{
+    margin-bottom:1.8rem;
+  }
+
+  .section-heading h2{
+    font-size:clamp(2.05rem,9.8vw,3.05rem);
+    line-height:1.05;
+  }
+
+  .section-heading p{
+    font-size:1.04rem;
+    line-height:1.42;
+  }
+
+  .card-grid{
+    max-width:100%;
+  }
+
+  .info-card{
+    min-height:auto;
+    padding:1.55rem 1.4rem 1.45rem;
+  }
+
+  .info-card h3{
+    font-size:clamp(2rem,9.5vw,2.85rem);
+  }
+
+  .card-kicker{
+    margin-bottom:1.15rem;
+  }
+
+  .info-card p:not(.card-kicker){
+    margin-bottom:1.35rem;
+    font-size:1.05rem;
+    line-height:1.36;
+  }
+
+  .card-cta{
+    margin-top:.7rem;
+  }
+
+  .info-card::before{
+    opacity:.24;
+  }
+
+  .engine-strip{
+    padding:2.35rem 1.25rem 2.65rem;
+  }
+
+  .engine-strip h2{
+    font-size:clamp(1.75rem,8.6vw,2.55rem);
+  }
+
+  .cta{
+    display:block;
+    padding:3.35rem 0 3.75rem;
+  }
+
+  .cta .section-art{
+    opacity:.86;
+    object-position:center center;
+  }
+
+  .cta:after{
+    background:linear-gradient(180deg,rgba(7,8,8,.38),rgba(7,8,8,.58) 44%,rgba(7,8,8,.72));
+  }
+
+  .cta-overlay{
+    width:min(100% - 1.5rem,640px);
+    padding:1.45rem;
+    border-radius:1rem;
+    background:linear-gradient(180deg,rgba(8,9,9,.66),rgba(5,6,6,.78));
+    backdrop-filter:blur(7px);
+  }
+
+  .cta h2{
+    font-size:clamp(2.25rem,10.8vw,3.55rem);
+    line-height:1.02;
+  }
+
+  .cta p{
+    margin-bottom:1.35rem;
+    font-size:1.04rem;
+    line-height:1.42;
+  }
+
+  .demo-form{
+    width:100%;
+    padding:1.05rem;
+    gap:.95rem;
+    background:rgba(4,5,5,.72);
+  }
+
+  .demo-grid{
+    grid-template-columns:1fr;
+    gap:.95rem;
+  }
+
+  .demo-form input,
+  .demo-form select,
+  .demo-form textarea{
+    min-height:3.25rem;
+    font-size:1rem;
+  }
+
+  .demo-form textarea{
+    min-height:8rem;
+  }
+
+  .demo-note{
+    display:none;
+  }
+
+  .cta .section-footer-cue{
+    display:none;
+  }
+}
+
+@media(max-width:430px){
+  .site-header{padding-inline:1rem}
+  .brand-mark{font-size:1.28rem;max-width:52vw}
+  .nav-demo{font-size:.84rem;padding-inline:.85rem}
+  .nav-shell{gap:1.05rem;font-size:.78rem}
+  .hero-logo{font-size:clamp(2.05rem,11.8vw,3.25rem)}
+  h1{font-size:clamp(2.2rem,11.6vw,3.4rem)}
+  .cta-overlay{width:min(100% - 1rem,620px);padding:1.15rem}
+  .demo-form{padding:.9rem}
+}
+
+@media(max-width:900px){
+  .trusda-hero{
+    min-height:auto;
+    padding:3.15rem 0 3.6rem;
+  }
+
+  .trusda-overlay{
+    width:min(100% - 1.5rem,660px);
+  }
+
+  .trusda-overlay h1{
+    font-size:clamp(3rem,15vw,4.5rem);
+  }
+
+  .trusda-copy{
+    font-size:1.04rem;
+    line-height:1.48;
+  }
+
+  .trusda-formula{
+    width:min(100%,31rem);
+    padding:1rem;
+  }
+
+  .trusda-explain{
+    padding:3.25rem 1.25rem;
+  }
+
+  .trusda-heading h2{
+    font-size:clamp(2.35rem,10vw,3.35rem);
+  }
+}
