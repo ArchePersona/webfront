@@ -143,9 +143,11 @@
   .cta-overlay{
     width:min(100% - 1rem,640px);
     padding:.72rem;
-    border-radius:.95rem;
-    background:linear-gradient(180deg,rgba(8,9,9,.34),rgba(5,6,6,.48));
-    backdrop-filter:blur(3px);
+    border:0;
+    border-radius:0;
+    background:transparent;
+    box-shadow:none;
+    backdrop-filter:none;
   }
 
   .cta h2{
@@ -164,8 +166,11 @@
     width:100%;
     padding:.58rem;
     gap:.42rem;
-    background:rgba(4,5,5,.52);
-    backdrop-filter:blur(4px);
+    border:0;
+    border-radius:0;
+    background:rgba(4,5,5,.42);
+    box-shadow:none;
+    backdrop-filter:blur(3px);
     scroll-margin-top:7.6rem;
   }
 
