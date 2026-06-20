@@ -159,7 +159,7 @@
 
   .cta p{
     max-width:34rem;
-    margin-bottom:.95rem;
+    margin-bottom:1.45rem;
     font-size:.78rem;
     line-height:1.15;
   }
@@ -232,7 +232,7 @@
   h1{font-size:clamp(2.2rem,11.6vw,3.4rem)}
   .cta-overlay{width:min(100% - .7rem,620px);padding:.34rem .58rem .58rem}
   .cta h2{font-size:clamp(1.36rem,6.7vw,1.95rem)}
-  .cta p{font-size:.72rem;line-height:1.12;margin-bottom:.85rem}
+  .cta p{font-size:.72rem;line-height:1.12;margin-bottom:1.3rem}
   .demo-form{padding:.44rem;gap:.32rem}
 }
 
