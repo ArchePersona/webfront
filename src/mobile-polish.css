@@ -129,20 +129,23 @@
   }
 
   .cta .section-art{
-    opacity:.88;
-    object-position:center center;
+    opacity:1;
+    object-position:center top;
+    filter:saturate(1.22) contrast(1.2) brightness(1.34);
   }
 
   .cta:after{
-    background:linear-gradient(180deg,rgba(7,8,8,.24),rgba(7,8,8,.44) 44%,rgba(7,8,8,.60));
+    background:
+      linear-gradient(180deg,rgba(7,8,8,.08),rgba(7,8,8,.22) 42%,rgba(7,8,8,.34)),
+      radial-gradient(circle at 50% 22%,rgba(255,176,0,.12),transparent 38%);
   }
 
   .cta-overlay{
     width:min(100% - 1rem,640px);
     padding:.72rem;
     border-radius:.95rem;
-    background:linear-gradient(180deg,rgba(8,9,9,.50),rgba(5,6,6,.66));
-    backdrop-filter:blur(6px);
+    background:linear-gradient(180deg,rgba(8,9,9,.34),rgba(5,6,6,.48));
+    backdrop-filter:blur(3px);
   }
 
   .cta h2{
@@ -161,7 +164,8 @@
     width:100%;
     padding:.58rem;
     gap:.42rem;
-    background:rgba(4,5,5,.68);
+    background:rgba(4,5,5,.52);
+    backdrop-filter:blur(4px);
     scroll-margin-top:7.6rem;
   }
 
@@ -183,6 +187,7 @@
     padding:.42rem .62rem;
     border-radius:.46rem;
     font-size:.84rem;
+    background:rgba(3,4,4,.66);
   }
 
   .demo-form textarea{
