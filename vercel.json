@@ -5,8 +5,8 @@
   "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "source": "/trusda",
+      "destination": "/trusda.html"
     }
   ]
 }
