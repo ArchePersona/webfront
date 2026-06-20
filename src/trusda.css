@@ -10,15 +10,15 @@
 }
 
 .trusda-hero .section-art{
-  opacity:.86;
-  filter:saturate(.98) contrast(1.04);
+  opacity:1;
+  filter:saturate(1.08) contrast(1.08) brightness(1.16);
   object-position:center center;
 }
 
 .trusda-hero:after{
   background:
-    linear-gradient(180deg,rgba(7,8,8,.52) 0%,rgba(7,8,8,.24) 34%,rgba(7,8,8,.50) 100%),
-    radial-gradient(circle at 50% 42%,rgba(7,8,8,.04),rgba(7,8,8,.28) 54%,rgba(7,8,8,.72));
+    linear-gradient(180deg,rgba(7,8,8,.22) 0%,rgba(7,8,8,.08) 36%,rgba(7,8,8,.24) 100%),
+    radial-gradient(circle at 50% 42%,rgba(7,8,8,0),rgba(7,8,8,.10) 52%,rgba(7,8,8,.38));
 }
 
 .trusda-overlay{
@@ -67,13 +67,14 @@
   margin:0 auto;
   padding:.72rem 1rem;
   width:min(760px,100%);
-  border:1px solid rgba(255,176,0,.26);
+  border:1px solid rgba(255,176,0,.30);
   border-radius:.7rem;
-  background:rgba(8,9,9,.28);
-  box-shadow:0 20px 70px rgba(0,0,0,.28),inset 0 1px 0 rgba(255,255,255,.05);
+  background:rgba(8,9,9,.10);
+  box-shadow:0 20px 70px rgba(0,0,0,.22),inset 0 1px 0 rgba(255,255,255,.05);
   color:#f4c180;
   font-size:clamp(.84rem,.98vw,1rem);
   font-weight:800;
+  backdrop-filter:blur(.5px);
 }
 
 .trusda-formula b{
@@ -216,7 +217,7 @@
 
 @media(max-width:900px){
   .trusda-hero{min-height:auto;padding:3rem 0}
-  .trusda-hero .section-art{opacity:.76}
+  .trusda-hero .section-art{opacity:.96;filter:saturate(1.02) contrast(1.04) brightness(1.08)}
   .trusda-overlay h1{font-size:clamp(2.45rem,13vw,4rem)}
   .trusda-formula{align-items:stretch;flex-direction:column;gap:.45rem;width:min(420px,100%)}
   .integration-grid,.funnel-grid{grid-template-columns:1fr}
