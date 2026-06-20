@@ -27,9 +27,19 @@
 }
 
 .mini-brand{
-  margin-bottom:.45rem;
-  color:var(--amber-soft);
-  font-size:clamp(.82rem,.95vw,.96rem);
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  margin:0 auto .55rem;
+  font-size:clamp(.95rem,1.15vw,1.18rem);
+  letter-spacing:-.08em;
+  opacity:.98;
+  text-shadow:0 0 18px rgba(255,176,0,.28),0 2px 14px rgba(0,0,0,.85);
+}
+
+.mini-brand .logo-a{
+  color:var(--amber);
+  text-shadow:0 0 18px rgba(255,176,0,.72),0 0 34px rgba(255,176,0,.30);
 }
 
 .trusda-overlay h1{
@@ -218,6 +228,7 @@
 @media(max-width:900px){
   .trusda-hero{min-height:auto;padding:3rem 0}
   .trusda-hero .section-art{opacity:.96;filter:saturate(1.02) contrast(1.04) brightness(1.08)}
+  .mini-brand{font-size:clamp(.9rem,4.2vw,1.05rem)}
   .trusda-overlay h1{font-size:clamp(2.45rem,13vw,4rem)}
   .trusda-formula{align-items:stretch;flex-direction:column;gap:.45rem;width:min(420px,100%)}
   .integration-grid,.funnel-grid{grid-template-columns:1fr}
