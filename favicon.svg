@@ -1,4 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ArchePersona favicon">
-  <rect width="64" height="64" fill="#070808"/>
-  <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAA1CAYAAABlSmWcAAAACXBIWXMAAAPoAAAD6AG1e1JrAAADC0lEQVR4nO2Zy25aQQyGfTlQtURVVVUAQTh7hW9aEvssRvzYF+ge7VBYex/FHjXp5SpvgQWPnNzhySHwPLHzymSpW+7vnDlzL8BRpJx9/CzzFV20iXFtt1kbwkUMF5RHF2ly2nzz+4LGYPWaIpl1IU3UKp/LfG6WIjBMoZmFP4lOFz4TaRTYOiFPttv7cZBUPAqhlDLKfDQqBCveChKzVjBHBsFClWDLWK9YSxLPBcbUvFjJYrFYG1SHwpE3B4MNT8JeHUHGE7HM9mcwa1zo1akJ/+YosLYA3HfaNKZU4i34a52BvG59qn2SLcAqxqabw0McNOroUY2b62zuoLYgDZtlhsv9lKmNPf3FM4Y1f1Q6yRnV3Y/lr4DkRlwz/jn5FlY2rXAHsdA+KN9vhRrjPKGfC3SN6r98mPCrGCB2mdMVfZC/7iMUjcxj4SxwGmLe95eFzaK7TgGM3maT3kTL33vrF1kbk6UlPahPB+2BT28I1mPzlrEHuQvILMSzxylxkdkLXebQvUXKZ7pxYmJo61kSDOx5uKIeeNvNnZpmwrtXqTJ+vJgzM1DYXO3Nt7h0h7mI6j02cZPK+Q2xu43LxZk6VI9qf6F1VVWeZkiRz52HOfx/h+HscpzLmCmDwPjNrKFld+vwF30RbV2Wfmh5Ubt3ZcOYmWzzGrT/gi2prHXpKUiuWdg5+zIExoDsiuZb3WrWpfZYSmL3i/0Dne9LQemAC5ifYmAN8z1XK+477rUp7zY6sriFmgVsW8e0ysPFAcd6UznwPoINxcy9Pii0EWTUPjZWkpsjhJPtLpOM0dPBkZoltyPtMQlZdKVdbUDJ6cXMA12n5SYxK1h6MmWJzoG6sIuaRPO1t4qe7cxD3jsqTIW+7Vd30is/zG7dYFku56DF/RZxP67haG2qdfD8hi7ldtmVyZd26smuDrtt3aZ4htX1YjTBxmzQZTvcaobVfKEJXLzSpPp1JWH/KNVb6wHyh6Vc3OOE152cGm6FH8wbaT+t/X1AqcIopox6q+dQmQVv4AOQlfMs1V90D1ywnGO37xvK3dGG9Vo9etUGy1cEmzV/6oEw3lP4kCVbdoUCG4JV3xmBH2moIrBftjz+oC3zSLl4RcVuTXDwf3wxHkMse98LSBxCL6oEfMg/ZjfoG42yA8hqlL/sAAAAASUVORK5CYII=" x="3" y="0" width="58" height="64" preserveAspectRatio="xMidYMid meet"/>
+  <rect width="64" height="64" rx="12" fill="#050505"/>
+  <text x="32" y="45"
+        text-anchor="middle"
+        font-family="Audiowide, Orbitron, Arial Black, sans-serif"
+        font-size="48"
+        font-weight="400"
+        fill="#FFB000">A</text>
 </svg>
